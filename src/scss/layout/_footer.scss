@@ -1,0 +1,20 @@
+.footer{
+  background-color: $grisOscuro;
+
+  .contenedor-footer{
+    padding-top: $separacion / 2;
+  }
+  .copyrigth{
+    color: $blanco;
+    text-align: center;
+  }
+}
+a{
+  text-decoration: none;
+  color: $blanco;
+  margin-right: 2rem;
+
+  &:last-of-type{
+    margin-right: 0;
+  }
+}
