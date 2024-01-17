@@ -4,5 +4,20 @@
   }
 }
 .anuncio{
-  background-color: $gris;
+  background-color: lighten($gris, 5);
+  border: 1px solid darken($grisOscuro, 10);
+
+  .contenido-anuncio{
+    padding: 2rem;
+
+  }
+
+  h3, p{
+    margin: 0;
+  }
+  .precio{
+    color: $verde;
+    font-weight: $bold;
+    font-size: 2.4rem;
+  }
 }
