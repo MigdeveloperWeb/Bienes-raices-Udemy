@@ -23,9 +23,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  @include tablet{
-    min-height: 70rem;
-    }
+ 
    h1{
     text-align: left;
     color: $blanco;
