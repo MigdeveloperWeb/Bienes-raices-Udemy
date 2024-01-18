@@ -21,3 +21,6 @@
     gap: $espaciado;
     grid-template-columns: repeat($columnas, 1fr);
 }
+@mixin boton(){
+    background-color: $amarillo;
+}
