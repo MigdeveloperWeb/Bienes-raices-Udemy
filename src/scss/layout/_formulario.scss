@@ -13,4 +13,11 @@
     text-transform: uppercase;
     display: block;
   }
+  input:not([type="submit"]){
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: $blanco;
+    border: 1px solid $gris;
+  }
 }
