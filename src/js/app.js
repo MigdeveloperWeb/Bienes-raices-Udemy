@@ -12,4 +12,10 @@ function eventListeners(){
 
 function navegacionResponsive(){
   const navegacion = document.querySelector('.navegacion');
+
+if(navegacion.classList.contains('mostrar')){
+  navegacion.classList.remove('mostrar');
+}else{
+  navegacion.classList.add('mostrar');
+}
 }
