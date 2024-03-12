@@ -11,7 +11,9 @@
 
 .navegacion{
 
- visibility: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .3s ease-in-out;
 
   @include tablet{
     display: flex;
@@ -52,4 +54,5 @@
 
 .mostrar{
 visibility: visible;
+opacity: 1;
 }
