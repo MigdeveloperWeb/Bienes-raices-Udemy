@@ -11,7 +11,7 @@
 
 .navegacion{
 
-display: none;
+ visibility: hidden;
 
   @include tablet{
     display: flex;
@@ -51,9 +51,5 @@ display: none;
 }
 
 .mostrar{
-  display: flex;
-  flex-direction: column;
-  @include tablet{
-    flex-direction: row;
-  }
+visibility: visible;
 }
