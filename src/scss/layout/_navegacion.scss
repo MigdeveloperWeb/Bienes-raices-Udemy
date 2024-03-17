@@ -13,9 +13,12 @@
     margin-bottom: 2rem;
     filter: invert(100%);
 
+    &:hover{
+      cursor: pointer;
+    }
+
     @include tablet{
       margin-top: 0;
-      margin-bottom: 0;
     }
   }
 }
