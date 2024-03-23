@@ -15,6 +15,9 @@ background-color: darken($grisOscuro, 10);
     .precio{
       color: $verde;
     }
+    .icono{
+      filter: invert(100%);
+    }
   }
 }
 
