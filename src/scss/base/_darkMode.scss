@@ -23,5 +23,12 @@ background-color: darken($grisOscuro, 10);
   .texto-nosotros blockquote{
     color: $blanco;
   }
+  .formulario{
+    label,
+    legend,
+    p{
+      color: $gris;
+    }
+  }
 }
 
