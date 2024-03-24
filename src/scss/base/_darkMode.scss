@@ -29,6 +29,12 @@ background-color: darken($grisOscuro, 10);
     p{
       color: $gris;
     }
+    input:not([type="submit"]),
+    textarea,
+    select{
+      background-color: $grisOscuro;
+      color: $blanco;
+    }
   }
 }
 
